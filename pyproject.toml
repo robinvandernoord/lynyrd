@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "lynyrd"
 dynamic = ["version"]
-description = ''
+description = 'Animation to go along with Free Bird'
 readme = "README.md"
 requires-python = ">=3.8"
 license = "MIT"

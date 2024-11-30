@@ -1,7 +1,10 @@
 # lynyrd
 
+
 [![PyPI - Version](https://img.shields.io/pypi/v/lynyrd.svg)](https://pypi.org/project/lynyrd)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/lynyrd.svg)](https://pypi.org/project/lynyrd)
+
+
+Animation to go along with Free Bird
 
 -----
 
@@ -13,8 +16,17 @@
 ## Installation
 
 ```console
-pip install lynyrd
+uvenv install lynyrd
 ```
+
+## Usage
+```bash
+lynyrd
+# or,
+python -m lynyrd
+```
+
+Then, at `localhost:8347` you should be able to see the app.
 
 ## License
 

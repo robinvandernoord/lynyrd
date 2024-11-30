@@ -1,3 +1,4 @@
+import webbrowser
 from http.server import HTTPServer, BaseHTTPRequestHandler
 
 PAGE = """
@@ -181,6 +182,7 @@ def run(server_class=HTTPServer, handler_class=SimpleHandler, port=8347):
     server_address = ('', port)
     httpd = server_class(server_address, handler_class)
     print(f"Running on 0.0.0.0:{port}")
+    webbrowser.open(f'http://localhost:{port}')
     httpd.serve_forever()
 
 
