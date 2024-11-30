@@ -27,9 +27,9 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Documentation = "https://github.com/Robin van der Noord/lynyrd#readme"
-Issues = "https://github.com/Robin van der Noord/lynyrd/issues"
-Source = "https://github.com/Robin van der Noord/lynyrd"
+Documentation = "https://github.com/robinvandernoord/lynyrd#readme"
+Issues = "https://github.com/robinvandernoord/lynyrd/issues"
+Source = "https://github.com/robinvandernoord/lynyrd"
 
 [tool.hatch.version]
 path = "src/lynyrd/__about__.py"
