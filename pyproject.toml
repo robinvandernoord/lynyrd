@@ -34,12 +34,21 @@ Source = "https://github.com/robinvandernoord/lynyrd"
 [tool.hatch.version]
 path = "src/lynyrd/__about__.py"
 
+[tool.hatch.build]
+include = ['src/lynyrd/*.html']
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/lynyrd"]
+
 [tool.hatch.envs.types]
 extra-dependencies = [
   "mypy>=1.0.0",
 ]
+
+
 [tool.hatch.envs.types.scripts]
 check = "mypy --install-types --non-interactive {args:src/lynyrd tests}"
+
 
 [tool.coverage.run]
 source_pkgs = ["lynyrd", "tests"]
